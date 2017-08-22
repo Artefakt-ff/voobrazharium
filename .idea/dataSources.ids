@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - mentar@localhost" uuid="3ffb6011-e4de-402c-b0c5-2e383f332b66">
+    <database-info product="MySQL" version="5.5.5-10.1.19-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="mentar"/>
+      <table id="2" parent="1" name="projects"/>
+      <column id="3" parent="2" name="number">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="4" parent="2" name="title">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="5" parent="2" name="description">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="6" parent="2" name="images">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>

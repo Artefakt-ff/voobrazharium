@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - mentar@localhost" uuid="3ffb6011-e4de-402c-b0c5-2e383f332b66">
+      <secret-storage>master_key</secret-storage>
+      <user-name>Artefakt</user-name>
+      <schema-pattern>mentar.*</schema-pattern>
+      <default-schemas>mentar.*</default-schemas>
+    </data-source>
+  </component>
+</project>

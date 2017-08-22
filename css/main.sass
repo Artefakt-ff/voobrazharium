@@ -1,0 +1,125 @@
+$border: 30vh
+@mixin transition($s)
+  transition: $s
+  -moz-transition: $s
+  -webkit-transition: $s
+  -o-transition: $s
+
+.content
+  text-align: center
+a
+  outline: none
+a:active
+  outline: none
+#menu
+  #active
+    background-color: lightcoral
+    +transition(1s)
+  a
+    color: #2e3133
+  a:hover
+    color: lightgrey
+  position: fixed
+  width: 100%
+  background: white
+  z-index: 1000
+  border-bottom: 0.5px solid lightgrey
+
+#main_page
+  background: url("../images/background.jpg")  center no-repeat
+  background-size: contain
+
+  h1
+    margin-bottom: 30px
+
+#gallery
+  .container
+    display: table
+    height: 100%
+    position: relative
+    .row
+      display: table-cell
+      vertical-align: middle
+      .col-md-3
+        text-align: center
+        float: left
+        margin-top: 40px
+        img
+          width: 100%
+          height: auto
+
+      img
+        height: 28vh
+        text-align: center
+        margin-bottom: 20px
+
+#next
+  font-size: 60px
+  cursor: pointer
+  color: lightgreen
+  +transition(0.4s)
+
+#next:hover
+  color: green
+  +transition(0.4s)
+
+.centered
+  text-align: center
+
+.project
+  display: inline-block
+  img
+    height: $border
+    width: $border
+
+#margined-top_row
+  margin-top: 30px
+
+#call_to_action
+  .row
+    position: relative
+  p
+    font-size: 16px
+    span
+      margin-top: 10px
+      color: green
+      font-size: 24px
+  .col-md-6:first-child
+    border-right: 0.5px solid lightgrey
+  .col-md-6:last-child
+    text-align: center
+    img
+      display: block
+      margin: 0 auto
+      height: 150px
+      cursor: pointer
+      +transition(0.5s)
+    img:hover
+      transform: rotate(359deg)
+      +transition(0.5s)
+  h1
+    text-align: center
+    font-weight: 300
+    color: red
+    margin-bottom: 20px
+    #free
+      font-weight: 700
+      text-decoration: underline
+  h4
+    color: darkred
+    text-align: center
+    margin-bottom: 60px
+  label
+    margin-top: 20px
+  label:first-child
+    margin-top: 0
+  input:last-child
+    cursor: pointer
+    margin-top: 20px
+
+
+
+
+
+
+

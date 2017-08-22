@@ -1,0 +1,20 @@
+a {
+  outline: none; }
+
+a:active {
+  outline: none; }
+
+a:hover {
+  text-decoration: none; }
+
+#back {
+  position: fixed;
+  top: 5%;
+  left: 5%; }
+
+.container {
+  margin-top: 20vh; }
+  .container img {
+    width: 100%; }
+
+/*# sourceMappingURL=projects.css.map */
